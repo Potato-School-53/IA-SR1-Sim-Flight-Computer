@@ -54,3 +54,13 @@ class Engine:
         
         return self.fuel_pump_power * fuel_ratio, self.oxidizer_pump_power * oxidizer_ratio
 
+
+class Rocket:
+    def __init__(self, rocketObject):
+        self.position = rocketObject.position.to([1,3])
+        self.rotation = rocketObject.rotation.to([1,3])
+        self.velocity = rocketObject.velocity.to([1,3])
+        self.acceleration = rocketObject.acceleration.to([1,3])
+        self.
+
+    def 
